@@ -1,0 +1,335 @@
+[2025-09-07 09:49:16,892: INFO: main: Welcome to our custom log]
+[2025-09-10 10:00:59,667: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-10 10:00:59,680: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-10 10:00:59,683: INFO: common: created directory at: artifacts]
+[2025-09-10 10:00:59,685: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-10 10:03:29,084: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-10 10:03:29,088: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-10 10:03:29,089: INFO: common: created directory at: artifacts]
+[2025-09-10 10:03:29,091: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-10 10:05:04,510: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-10 10:05:04,515: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-10 10:05:04,516: INFO: common: created directory at: artifacts]
+[2025-09-10 10:05:04,518: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-10 10:10:34,553: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-10 10:10:34,555: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-10 10:10:34,555: INFO: common: created directory at: artifacts]
+[2025-09-10 10:10:34,557: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-10 10:10:58,027: INFO: 2675782168: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9504:2017A8:5F872:152B67:68C10141
+Accept-Ranges: bytes
+Date: Wed, 10 Sep 2025 04:40:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210035-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1757479235.745663,VS0,VE890
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d651d1282d236dca2787261fe0864ddcfe35d95b
+Expires: Wed, 10 Sep 2025 04:45:35 GMT
+Source-Age: 1
+
+]
+[2025-09-10 11:52:37,596: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-10 11:52:37,616: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-10 11:52:37,632: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-10 11:52:37,632: INFO: common: created directory at: artifacts]
+[2025-09-10 11:52:37,632: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-10 11:52:42,515: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 91C1:34A047:1E36B:399E2:68C1192D
+Accept-Ranges: bytes
+Date: Wed, 10 Sep 2025 06:22:38 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210028-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1757485358.324334,VS0,VE653
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a24ca71eae9a172949f82305ad03f060b024e49c
+Expires: Wed, 10 Sep 2025 06:27:38 GMT
+Source-Age: 0
+
+]
+[2025-09-10 11:52:42,682: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-09-12 11:06:37,121: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-12 11:06:37,121: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "D:\Text-summarizer\main.py", line 10, in <module>
+    data_ingestion.main()
+  File "D:\Text-summarizer\src\textSummarizer\pipeline\stage_01_data_ingestion.py", line 11, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-09-12 11:10:22,677: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-12 11:10:22,694: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-12 11:10:22,710: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-12 11:10:22,710: INFO: common: created directory at: artifacts]
+[2025-09-12 11:10:22,710: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-12 11:10:22,710: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2025-09-12 11:10:22,942: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-09-13 16:54:45,681: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-13 16:54:45,705: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-13 16:54:45,720: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-13 16:54:45,720: INFO: common: created directory at: artifacts]
+[2025-09-13 16:54:45,722: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-13 16:54:45,722: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2025-09-13 16:54:45,885: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-09-13 17:00:02,659: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-13 17:00:02,659: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-13 17:00:02,659: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-13 17:00:02,659: INFO: common: created directory at: artifacts]
+[2025-09-13 17:00:02,669: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-13 17:00:02,670: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2025-09-13 17:00:03,056: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-09-16 18:26:48,719: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 18:26:48,735: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 18:26:48,735: INFO: common: created directory at: artifacts]
+[2025-09-16 18:29:26,145: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 18:29:26,150: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 18:29:26,154: INFO: common: created directory at: artifacts]
+[2025-09-16 18:29:26,156: INFO: common: created directory at: artifacts/model_trainer]
+[2025-09-16 18:29:40,701: WARNING: file_download: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`]
+[2025-09-20 09:18:48,195: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 09:18:48,227: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 09:18:48,231: INFO: common: created directory at: artifacts]
+[2025-09-20 09:18:48,236: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-20 09:18:51,444: INFO: 2675782168: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F9D6:3686AB:3526D:DAB46:68CE241D
+Accept-Ranges: bytes
+Date: Sat, 20 Sep 2025 03:48:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210029-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1758340128.227961,VS0,VE931
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cae5307c94151999fa91ac585e3fbb1ec611a5dc
+Expires: Sat, 20 Sep 2025 03:53:49 GMT
+Source-Age: 1
+
+]
+[2025-09-20 09:19:30,708: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 09:19:30,710: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 09:19:30,711: INFO: common: created directory at: artifacts]
+[2025-09-20 09:19:30,713: INFO: common: created directory at: artifacts/data_validation]
+[2025-09-20 09:20:15,315: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 09:20:15,319: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 09:20:15,319: INFO: common: created directory at: artifacts]
+[2025-09-20 09:20:15,322: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-20 09:26:02,109: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 09:26:02,109: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 09:26:02,109: INFO: common: created directory at: artifacts]
+[2025-09-20 09:26:02,109: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-20 09:34:17,734: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 09:34:17,738: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 09:34:17,739: INFO: common: created directory at: artifacts]
+[2025-09-20 09:34:17,741: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-20 09:39:46,282: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 09:39:46,297: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 09:39:46,298: INFO: common: created directory at: artifacts]
+[2025-09-20 09:39:46,299: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-20 09:43:59,180: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 09:43:59,183: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 09:43:59,185: INFO: common: created directory at: artifacts]
+[2025-09-20 09:43:59,187: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-20 09:50:40,110: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 09:50:40,111: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 09:50:40,111: INFO: common: created directory at: artifacts]
+[2025-09-20 09:50:40,111: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-20 09:50:52,686: INFO: 2675782168: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F9D6:3686AB:3526D:DAB46:68CE241D
+Accept-Ranges: bytes
+Date: Sat, 20 Sep 2025 04:20:48 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210030-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1758342049.699021,VS0,VE300
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1a3ee0d4dd5c3753b66b006d8d60184e56629f37
+Expires: Sat, 20 Sep 2025 04:25:48 GMT
+Source-Age: 0
+
+]
+[2025-09-20 09:51:25,243: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 09:51:25,246: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 09:51:25,247: INFO: common: created directory at: artifacts]
+[2025-09-20 09:51:25,248: INFO: common: created directory at: artifacts/data_validation]
+[2025-09-20 09:52:12,170: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 09:52:12,173: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 09:52:12,174: INFO: common: created directory at: artifacts]
+[2025-09-20 09:52:12,175: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-20 09:55:45,951: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 09:55:45,953: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 09:55:45,964: INFO: common: created directory at: artifacts]
+[2025-09-20 09:55:45,966: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-20 10:15:41,662: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 10:15:41,668: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 10:15:41,672: INFO: common: created directory at: artifacts]
+[2025-09-20 10:15:41,675: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-21 08:50:56,366: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-21 08:50:56,383: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-21 08:50:56,386: INFO: common: created directory at: artifacts]
+[2025-09-21 08:50:56,386: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-21 08:51:39,894: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-21 08:51:39,900: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-21 08:51:39,901: INFO: common: created directory at: artifacts]
+[2025-09-21 08:51:39,903: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-21 08:52:53,673: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-21 08:52:53,678: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-21 08:52:53,679: INFO: common: created directory at: artifacts]
+[2025-09-21 08:52:53,682: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-21 09:03:56,959: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-21 09:03:56,962: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-21 09:03:56,962: INFO: common: created directory at: artifacts]
+[2025-09-21 09:03:56,965: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-21 09:20:26,898: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-21 09:20:26,901: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-21 09:20:26,903: INFO: common: created directory at: artifacts]
+[2025-09-21 09:20:26,904: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-21 09:28:07,949: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-21 09:28:07,952: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-21 09:28:07,957: INFO: common: created directory at: artifacts]
+[2025-09-21 09:28:07,957: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-21 09:33:28,735: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-21 09:33:28,739: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-21 09:33:28,741: INFO: common: created directory at: artifacts]
+[2025-09-21 09:33:28,742: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-21 09:34:27,425: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-21 09:34:27,429: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-21 09:34:27,432: INFO: common: created directory at: artifacts]
+[2025-09-21 09:34:27,433: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-21 09:39:48,578: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-21 09:39:48,584: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-21 09:39:48,589: INFO: common: created directory at: artifacts]
+[2025-09-21 09:39:48,595: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-21 09:42:56,985: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-21 09:42:56,989: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-21 09:42:56,994: INFO: common: created directory at: artifacts]
+[2025-09-21 09:42:56,997: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-21 09:44:01,301: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-21 09:44:01,308: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-21 09:44:01,308: INFO: common: created directory at: artifacts]
+[2025-09-21 09:44:01,308: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-22 15:42:51,117: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-22 15:42:51,137: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-22 15:42:51,140: INFO: common: created directory at: artifacts]
+[2025-09-22 15:42:51,141: INFO: common: created directory at: artifacts/model_trainer]
+[2025-09-22 15:49:37,700: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-22 15:49:37,714: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-22 15:49:37,714: INFO: common: created directory at: artifacts]
+[2025-09-22 15:49:37,714: INFO: common: created directory at: artifacts/model_trainer]
+[2025-09-22 15:55:10,851: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-22 15:55:10,862: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-22 15:55:10,866: INFO: common: created directory at: artifacts]
+[2025-09-22 15:55:10,872: INFO: common: created directory at: artifacts/model_trainer]
+[2025-09-22 16:04:53,709: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-22 16:04:53,718: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-22 16:04:53,722: INFO: common: created directory at: artifacts]
+[2025-09-22 16:04:53,728: INFO: common: created directory at: artifacts/model_trainer]
+[2025-09-22 16:11:09,445: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-22 16:11:09,447: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-22 16:11:09,447: INFO: common: created directory at: artifacts]
+[2025-09-22 16:11:09,447: INFO: common: created directory at: artifacts/model_trainer]
+[2025-09-22 16:11:36,305: WARNING: file_download: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`]
+[2025-09-22 16:12:53,206: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-22 16:12:53,207: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-22 16:12:53,207: INFO: common: created directory at: artifacts]
+[2025-09-22 16:12:53,212: INFO: common: created directory at: artifacts/model_trainer]
+[2025-09-22 16:14:29,122: WARNING: file_download: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`]
+[2025-09-22 16:19:56,857: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-22 16:19:56,857: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-22 16:19:56,862: INFO: common: created directory at: artifacts]
+[2025-09-22 16:19:56,867: INFO: common: created directory at: artifacts/model_trainer]
+[2025-09-23 16:41:15,604: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-23 16:41:15,630: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 16:41:15,632: INFO: common: created directory at: artifacts]
+[2025-09-23 16:41:15,636: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-09-23 16:47:22,606: INFO: rouge_scorer: Using default tokenizer.]
+[2025-09-23 16:53:53,021: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-23 16:53:53,041: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 16:53:53,049: INFO: common: created directory at: artifacts]
+[2025-09-23 16:53:53,049: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-09-23 16:58:26,263: INFO: rouge_scorer: Using default tokenizer.]
+[2025-09-23 17:11:59,457: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-23 17:11:59,457: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 17:11:59,461: INFO: common: created directory at: artifacts]
+[2025-09-23 17:12:32,730: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-23 17:12:32,733: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 17:12:32,733: INFO: common: created directory at: artifacts]
+[2025-09-23 17:14:13,603: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-23 17:14:13,603: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 17:14:13,603: INFO: common: created directory at: artifacts]
+[2025-09-23 22:01:58,229: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-23 22:01:58,260: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 22:01:58,260: INFO: common: created directory at: artifacts]
+[2025-09-23 22:01:58,260: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-09-23 22:04:15,925: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-23 22:04:15,936: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 22:04:15,936: INFO: common: created directory at: artifacts]
+[2025-09-23 22:04:15,936: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-09-24 17:24:25,200: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-24 17:24:25,216: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 17:24:25,216: INFO: common: created directory at: artifacts]
+[2025-09-24 17:24:25,216: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-09-24 17:24:27,699: INFO: _client: HTTP Request: GET http://localhost:8080/startup-events "HTTP/1.1 200 OK"]
+[2025-09-24 17:24:31,298: INFO: _client: HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "]
+[2025-09-24 17:24:32,131: INFO: _client: HTTP Request: HEAD http://localhost:8080/ "HTTP/1.1 200 OK"]
+[2025-09-24 17:27:15,343: WARNING: font_manager: Matplotlib is building the font cache; this may take a moment.]
+[2025-09-24 17:27:15,660: INFO: font_manager: generated new fontManager]
