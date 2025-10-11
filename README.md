@@ -47,8 +47,21 @@ texts/scripts/activate
 
 STEP 2-install the requirements
 
+```
+pip install -r requirements.txt
+```
+```
+# Then run the follwing command
+python app.py
+```
+
+I've created two application files, app.py and app2.py.
+First use fastapi interface
+and second use gradio interface.
+
 
 Now,
+
 
 
 
