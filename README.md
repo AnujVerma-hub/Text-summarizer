@@ -34,12 +34,22 @@ https://github.com/AnujVerma-hub/Text-summarizer.git
 
 STEP 1-create a virtual environment after opening the repo 
 
+```
+python3 -m venv texts
+```
+### For Windows
+
+```
+texts/scripts/activate
+```
+
 
 
 STEP 2-install the requirements
 
 
 Now,
+
 
 
 
