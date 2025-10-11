@@ -27,7 +27,7 @@ Itv uses **Transfer Learning** with the[Google Peagsus] architecture, fine tuned
 
 Clone the repository
 
-https://github.com/AnujVerma-hub/Text-summarizer.git
+```https://github.com/AnujVerma-hub/Text-summarizer.git```
 
 
 STEP 1-create a virtual environment after opening the repo 
@@ -38,5 +38,6 @@ STEP 2-install the requirements
 
 
 Now,
+
 
 
