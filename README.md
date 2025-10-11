@@ -51,7 +51,7 @@ STEP 2-install the requirements
 pip install -r requirements.txt
 ```
 ```
-# Then run the follwing command
+# Then run the following command
 python app.py
 ```
 
@@ -61,6 +61,16 @@ and second use gradio interface.
 
 
 Now,
+
+```
+open up your local host and port
+```
+
+```
+Author: Anuj verma
+Email: anujvermamarch@gmail.com
+```
+
 
 
 
