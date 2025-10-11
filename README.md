@@ -1,11 +1,12 @@
 # Text-summarizer project
 
-This project is an end-to-end **Text Summarization Project** bilt using a fine tuned **Pegasus Transformer Model**.
-
+This project is an end-to-end **Text Summarization Project** built using a fine tuned **Pegasus Transformer Model**.
 It can generate concise summaries from long texts or paragraphs.
 
 ---
 
+the **goal** of this project is to summaries large bolcks of text into a few sentencees while preserving meaning and key information.
+Itv uses **Transfer Learning** with the[Google Peagsus] architecture, fine tuned for dialogue and news summarization tasks.
 
 ## Woekflows
 
@@ -16,5 +17,25 @@ It can generate concise summaries from long texts or paragraphs.
 5. update components
 6. update pipeline
 7. update main.py
-
 8. update app.py
+
+
+
+# How to run?
+
+## Steps:
+
+Clone the repository
+
+
+
+
+STEP 1-create a virtual environment after opening the repo 
+
+
+
+STEP 2-install the requirements
+
+
+Now,
+
