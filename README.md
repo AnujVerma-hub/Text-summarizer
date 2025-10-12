@@ -19,9 +19,9 @@ Itv uses **Transfer Learning** with the[Google Peagsus] architecture, fine tuned
 7. update main.py
 8. update app.py
 
-Checkout the live demo:
 
-[Live Demo](https://huggingface.co/spaces/Anuj-Verma/Text-summarizer-demo)
+
+Checkout the live Demo: [Live Demo](https://huggingface.co/spaces/Anuj-Verma/Text-summarizer-demo)
 
 
 
@@ -79,6 +79,7 @@ Email: anujvermamarch@gmail.com
 
 
 <img width="1875" height="891" alt="Screenshot 2025-10-11 113118" src="https://github.com/user-attachments/assets/7af26102-9dd3-499e-8ffa-ee8c03f694f7" />
+
 
 
 
