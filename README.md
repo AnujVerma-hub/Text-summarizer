@@ -91,20 +91,22 @@ Email: anujvermamarch@gmail.com
 
 3. Create a new huggingface space for deployment.
 
-   . Space name: (e.g., text summarizer)
-   . SDK: choose gradio
-   . Visibility: Public or Private.
+   - Space name: (e.g., text summarizer)
+   - SDK: choose gradio
+   - Visibility: Public or Private.
 
 4. Upload your project files.
 
-   . app.py
-   . requirements.txt
-   . models
-   . Readme.md
+   - app.py
+   - requirements.txt
+   - models
+   - Readme.md
 
 5. Define requirements.
+   
 
-   Then the huggingface spaces automatically detect the app.py file and launch the app.
+Then the huggingface spaces automatically detect the app.py file and launch the app.
+
 
 
 
