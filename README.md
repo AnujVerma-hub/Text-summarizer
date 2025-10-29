@@ -81,6 +81,12 @@ Email: anujvermamarch@gmail.com
 <img width="1875" height="891" alt="Screenshot 2025-10-11 113118" src="https://github.com/user-attachments/assets/7af26102-9dd3-499e-8ffa-ee8c03f694f7" />
 
 
+
+
+<img width="1670" height="836" alt="Screenshot 2025-10-29 191110" src="https://github.com/user-attachments/assets/3737e888-28f3-4387-82b5-eb109977f60d" />
+
+
+
 # Deployment Guide
 
 ## Steps:
@@ -106,6 +112,7 @@ Email: anujvermamarch@gmail.com
    
 
 Then the huggingface spaces automatically detect the app.py file and launch the app.
+
 
 
 
