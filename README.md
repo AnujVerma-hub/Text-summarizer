@@ -81,6 +81,33 @@ Email: anujvermamarch@gmail.com
 <img width="1875" height="891" alt="Screenshot 2025-10-11 113118" src="https://github.com/user-attachments/assets/7af26102-9dd3-499e-8ffa-ee8c03f694f7" />
 
 
+# Deployment Guide
+
+## Steps:
+
+1. Create an account on Huggingface.
+
+  -> [Huggingface](https://huggingface.co)
+
+3. Create a new huggingface space for deployment.
+
+   . Space name: (e.g., text summarizer)
+   . SDK: choose gradio
+   . Visibility: Public or Private.
+
+4. Upload your project files.
+
+   . app.py
+   . requirements.txt
+   . models
+   . Readme.md
+
+5. Define requirements.
+
+   Then the huggingface spaces automatically detect the app.py file and launch the app.
+
+
+
 
 
 
